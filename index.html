@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header_top">
+       <h1>Get in touch</h1>
+   <p>have any questions? we'd love to hear from you. Send us a message we'll respond as soon as possible.</p>
+   <p>Note: <span class="red_star">*</span> All fields are required</p>
+   
+   </div>
+<form method="POST" action="https://formsubmit.co/cff345c2eb695d493bd7ab678d59cd0f" enctype="multipart/form-data">
+   
+   <!-- Honeypot -->
+   <input type="text" name="_honey" style="display:none">
+   
+   <!-- recaptcha -->
+   <input type="hidden" name="_captcha" value="false">
+   
+   <!-- Success message -->
+   <input type="hidden" name="_next" value="https://github.com/donjayspace/form-submit/success.html">
+   
+    <div class="container">
+       <div class="form_group">
+      <label for="name">Full Name:</label><br>
+        <input type="text" id="name" placeholder="Full name" name="name" required>
+        
+        <label for="email"> Email:</label><br>   
+         <input type="email" id="email" placeholder="name@example.com" name="email" required>
+         
+        <label for="phone"> Phone number:</label><br>
+          <input type="tel" id="phone" placeholder="(000) 000-0000" name="phone" required><br>
+          
+          <label> Message:</label>
+          <br>
+          
+     <textarea name="message" id="message" placeholder="type your message..." required></textarea>
+       <br>
+       <br>
+  
+   <button class="button" type="submit">
+      Send
+   </button>
+  
+       </div>
+     </div>
+  </form> 
+</div>
+    
+</body>
+  </html>
+  
